@@ -37,3 +37,11 @@ Se vuoi fare il deploy manuale con Wrangler:
 npm run build
 npx wrangler pages deploy dist
 ```
+
+Se la piattaforma usa `npx wrangler versions upload`, assicurati che i file statici
+vengano caricati con l'opzione `--assets` oppure tramite `wrangler.toml`:
+
+```bash
+npm run build
+npx wrangler versions upload --assets=./dist
+```
