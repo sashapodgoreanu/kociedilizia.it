@@ -60,7 +60,7 @@
             <li>Efficientamento energetico</li>
             <li>Restyling facciate</li>
           </ul>
-          <div class="tag">Consegna 2024</div>
+          <div class="tag">Consegna 2026</div>
         </div>
       </div>
     </header>
@@ -173,6 +173,18 @@
         <p>
           Scrivici per un preventivo o un sopralluogo gratuito a Grosseto e provincia.
         </p>
+        <p>
+          Operiamo in tutte le città della provincia di Grosseto: Grosseto, Follonica,
+          Castiglione della Pescaia, Scarlino, Gavorrano, Massa Marittima, Roccastrada,
+          Montieri, Monterotondo Marittimo, Civitella Paganico, Campagnatico, Cinigiano,
+          Scansano, Magliano in Toscana, Orbetello, Monte Argentario, Isola del Giglio,
+          Capalbio, Manciano, Pitigliano, Sorano, Semproniano, Roccalbegna, Castel del Piano,
+          Arcidosso, Santa Fiora e Seggiano.
+        </p>
+        <p>
+          Inoltre seguiamo cantieri nelle principali città entro 100 km, tra cui Siena,
+          Piombino, Cecina, Poggibonsi, Colle di Val d’Elsa e Porto Santo Stefano.
+        </p>
         <div class="contact-details">
           <div>
             <strong>Telefono</strong>
@@ -232,7 +244,7 @@
         <a href="#processo">Metodo</a>
         <a href="#contatti">Contatti</a>
       </div>
-      <p class="footer-note">© 2024 Koci Edilizia. Tutti i diritti riservati.</p>
+      <p class="footer-note">© 2026 Koci Edilizia. Tutti i diritti riservati.</p>
     </footer>
   </div>
 </template>
