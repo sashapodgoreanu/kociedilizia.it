@@ -192,7 +192,7 @@
           </div>
           <div>
             <strong>Email</strong>
-            <span>info@kociedilizia.it</span>
+            <span>alfredkociedilizia@gmail.com</span>
           </div>
           <div>
             <strong>WhatsApp</strong>
