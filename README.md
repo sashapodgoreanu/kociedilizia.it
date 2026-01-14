@@ -26,9 +26,10 @@ L'output della build viene generato in `dist/`.
 
 Impostazioni consigliate:
 
+- **Framework preset**: `None`
 - **Build command**: `npm run build`
 - **Build output directory**: `dist`
-- **Root directory**: `/`
+- **Root directory**: `/` (assicurati che sia la root del repo, altrimenti `package.json` non viene trovato)
 
 Se vuoi fare il deploy manuale con Wrangler:
 
