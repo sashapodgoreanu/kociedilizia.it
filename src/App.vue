@@ -1,3 +1,8 @@
+<script setup>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+</script>
+
 <template>
   <div class="page">
     <header class="hero">
@@ -11,10 +16,11 @@
         </div>
         <a
           class="cta"
-          href="https://wa.me/393480353893"
+          href="https://wa.me/393480353893?text=Ciao%20ti%20sto%20contattando%20dal%20sito%20kociedilizia.it%20e%20vorrei%20chiederti%20delle%20informazioni."
           target="_blank"
           rel="noreferrer"
         >
+          <FontAwesomeIcon class="whatsapp-icon" :icon="faWhatsapp" aria-hidden="true" />
           Contattaci su WhatsApp
         </a>
       </nav>
@@ -29,10 +35,11 @@
           <div class="hero-actions">
             <a
               class="cta"
-              href="https://wa.me/393480353893"
+              href="https://wa.me/393480353893?text=Ciao%20ti%20sto%20contattando%20dal%20sito%20kociedilizia.it%20e%20vorrei%20chiederti%20delle%20informazioni."
               target="_blank"
               rel="noreferrer"
             >
+              <FontAwesomeIcon class="whatsapp-icon" :icon="faWhatsapp" aria-hidden="true" />
               Parla su WhatsApp
             </a>
             <button class="ghost" type="button">Scarica il portfolio</button>
@@ -220,10 +227,11 @@
         <button class="cta" type="button">Invia richiesta</button>
         <a
           class="ghost whatsapp-link"
-          href="https://wa.me/393480353893"
+          href="https://wa.me/393480353893?text=Ciao%20ti%20sto%20contattando%20dal%20sito%20kociedilizia.it%20e%20vorrei%20chiederti%20delle%20informazioni."
           target="_blank"
           rel="noreferrer"
         >
+          <FontAwesomeIcon class="whatsapp-icon" :icon="faWhatsapp" aria-hidden="true" />
           Apri WhatsApp
         </a>
       </form>
@@ -248,3 +256,9 @@
     </footer>
   </div>
 </template>
+
+<style scoped>
+.whatsapp-icon {
+  margin-right: 0.5rem;
+}
+</style>
