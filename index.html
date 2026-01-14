@@ -1,54 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Koci Edilizia</title>
+    <title>Koci Edilizia | Impresa Edile</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container">
-        <p class="eyebrow">Koci Edilizia</p>
-        <h1>Building spaces with care and precision.</h1>
-        <p class="subtitle">
-          A simple landing page placeholder while we craft the full experience.
-          Stay tuned for services, projects, and ways to get in touch.
-        </p>
-        <a class="cta" href="mailto:info@kociedilizia.it">Contact us</a>
-      </div>
-    </header>
+    <div id="app">
+      <header class="site-header">
+        <nav class="nav container">
+          <div class="brand">
+            <span class="brand-mark">KE</span>
+            <div>
+              <p class="brand-name">Koci Edilizia</p>
+              <p class="brand-tag">Impresa edile</p>
+            </div>
+          </div>
+          <div class="nav-links">
+            <a href="#servizi">Servizi</a>
+            <a href="#progetti">Progetti</a>
+            <a href="#contatti">Contatti</a>
+          </div>
+        </nav>
 
-    <main class="container">
-      <section class="card-grid">
-        <article class="card">
-          <h2>Residential &amp; Commercial</h2>
-          <p>
-            From renovations to new builds, we focus on delivering practical
-            solutions tailored to your space.
-          </p>
-        </article>
-        <article class="card">
-          <h2>Reliable Timelines</h2>
-          <p>
-            We coordinate every phase with trusted partners to keep projects on
-            track and transparent.
-          </p>
-        </article>
-        <article class="card">
-          <h2>Quality Materials</h2>
-          <p>
-            We work with durable, sustainable materials to ensure long-lasting
-            results.
-          </p>
-        </article>
-      </section>
-    </main>
+        <section class="hero container">
+          <div class="hero-text">
+            <p class="eyebrow">Costruiamo con qualità e cura</p>
+            <h1>Il tuo partner per ristrutturazioni, nuove costruzioni e finiture.</h1>
+            <p class="subtitle">
+              Koci Edilizia è un'azienda edile specializzata in interventi
+              residenziali e commerciali. Uniamo esperienza, affidabilità e
+              attenzione ai dettagli in ogni progetto.
+            </p>
+            <div class="cta-group">
+              <a class="cta primary" href="mailto:info@kociedilizia.it">Richiedi un preventivo</a>
+              <a class="cta ghost" href="#contatti">Parliamo del progetto</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <p class="hero-card-title">Numero operativo</p>
+            <p class="hero-card-value">+39 000 000 0000</p>
+            <p class="hero-card-note">
+              Disponibili dal lunedì al venerdì, 8:30 - 18:00.
+            </p>
+            <div class="hero-card-list">
+              <span>✅ Sopralluoghi rapidi</span>
+              <span>✅ Preventivi chiari</span>
+              <span>✅ Team qualificato</span>
+            </div>
+          </div>
+        </section>
+      </header>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>© 2025 Koci Edilizia. All rights reserved.</p>
-      </div>
-    </footer>
+      <main>
+        <section id="servizi" class="section container">
+          <div class="section-title">
+            <h2>Servizi principali</h2>
+            <p>
+              Offriamo soluzioni complete, dalla progettazione alla consegna,
+              con un unico referente.
+            </p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <h3>Ristrutturazioni</h3>
+              <p>
+                Restyling di appartamenti, uffici e locali commerciali con
+                attenzione alla funzionalità e al design.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Nuove costruzioni</h3>
+              <p>
+                Realizzazione di strutture solide e sostenibili, dalla
+                fondazione alle finiture finali.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Manutenzione e finiture</h3>
+              <p>
+                Interventi rapidi su facciate, coperture, impianti e
+                manutenzione programmata.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="progetti" class="section alt">
+          <div class="container">
+            <div class="section-title">
+              <h2>Progetti in evidenza</h2>
+              <p>
+                Un'anteprima di alcune lavorazioni recenti. Presto aggiungeremo
+                un portfolio completo con fotografie e dettagli.
+              </p>
+            </div>
+            <div class="projects">
+              <div class="project">
+                <p class="project-title">Ristrutturazione appartamento</p>
+                <p class="project-meta">Milano · 120 mq</p>
+                <p>
+                  Nuovi layout, impianti aggiornati e finiture moderne per una
+                  famiglia in città.
+                </p>
+              </div>
+              <div class="project">
+                <p class="project-title">Capannone industriale</p>
+                <p class="project-meta">Bergamo · 900 mq</p>
+                <p>
+                  Intervento completo su copertura, pavimentazione e
+                  riqualificazione energetica.
+                </p>
+              </div>
+              <div class="project">
+                <p class="project-title">Boutique retail</p>
+                <p class="project-meta">Como · 70 mq</p>
+                <p>
+                  Finiture di pregio e gestione coordinata di fornitori e
+                  artigiani.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contatti" class="section container">
+          <div class="contact">
+            <div>
+              <h2>Parliamo del tuo progetto</h2>
+              <p>
+                Raccontaci le tue esigenze: prepariamo insieme un piano con
+                tempi, costi e materiali adatti.
+              </p>
+            </div>
+            <div class="contact-card">
+              <p class="contact-title">Contatti</p>
+              <p><strong>Email:</strong> info@kociedilizia.it</p>
+              <p><strong>Telefono:</strong> +39 000 000 0000</p>
+              <p><strong>Zona operativa:</strong> Lombardia e nord Italia</p>
+              <button class="cta primary" type="button" @click="showToast">
+                Richiedi un sopralluogo
+              </button>
+              <p class="toast" v-if="toastVisible">
+                Grazie! Ti ricontatteremo entro 24 ore.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-content">
+          <div>
+            <p class="brand-name">Koci Edilizia</p>
+            <p>Impresa edile specializzata in ristrutturazioni e costruzioni.</p>
+          </div>
+          <div>
+            <p class="footer-title">Contatti</p>
+            <p>info@kociedilizia.it</p>
+            <p>+39 000 000 0000</p>
+          </div>
+          <div>
+            <p class="footer-title">Sede</p>
+            <p>Via Roma 00</p>
+            <p>Milano, Italia</p>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2025 Koci Edilizia. Tutti i diritti riservati.</p>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {
+          return {
+            toastVisible: false,
+          };
+        },
+        methods: {
+          showToast() {
+            this.toastVisible = true;
+            window.setTimeout(() => {
+              this.toastVisible = false;
+            }, 3000);
+          },
+        },
+      }).mount("#app");
+    </script>
   </body>
 </html>
