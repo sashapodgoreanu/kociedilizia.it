@@ -2,7 +2,7 @@
   <div class="page">
     <header class="hero">
       <nav class="nav">
-        <div class="logo">KO.CI Edilizia</div>
+        <div class="logo">Koci Edilizia</div>
         <div class="nav-links">
           <a href="#servizi">Servizi</a>
           <a href="#progetti">Progetti</a>
@@ -16,7 +16,7 @@
           <p class="eyebrow">Impresa edile di Grosseto</p>
           <h1>Costruiamo spazi solidi, sostenibili e belli da vivere.</h1>
           <p class="lead">
-            KO.CI Edilizia è il partner locale per ristrutturazioni, nuove costruzioni
+            Koci Edilizia è il partner locale per ristrutturazioni, nuove costruzioni
             e manutenzioni straordinarie in tutta la Maremma.
           </p>
           <div class="hero-actions">
@@ -169,6 +169,10 @@
             <span>info@kociedilizia.it</span>
           </div>
           <div>
+            <strong>WhatsApp</strong>
+            <span>+39 348 035 3893</span>
+          </div>
+          <div>
             <strong>Sede</strong>
             <span>Via del Cantiere 18, 58100 Grosseto</span>
           </div>
@@ -193,8 +197,12 @@
 
     <footer class="footer">
       <div>
-        <strong>KO.CI Edilizia</strong>
+        <strong>Koci Edilizia</strong>
         <p>Impresa edile con base a Grosseto, attiva in tutta la Maremma.</p>
+      </div>
+      <div class="footer-data">
+        <strong>DATI DELLA SOCIETÀ - KOCI ALFRED</strong>
+        <p>Partita IVA: 01685210534</p>
       </div>
       <div class="footer-links">
         <a href="#servizi">Servizi</a>
@@ -202,7 +210,7 @@
         <a href="#processo">Metodo</a>
         <a href="#contatti">Contatti</a>
       </div>
-      <p class="footer-note">© 2024 KO.CI Edilizia. Tutti i diritti riservati.</p>
+      <p class="footer-note">© 2024 Koci Edilizia. Tutti i diritti riservati.</p>
     </footer>
   </div>
 </template>

@@ -288,6 +288,12 @@ textarea {
   color: #e2e8f0;
 }
 
+.footer-data {
+  display: grid;
+  gap: 6px;
+  color: #cbd5f5;
+}
+
 .footer-links {
   display: flex;
   gap: 20px;
