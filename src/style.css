@@ -51,6 +51,7 @@ a {
   display: flex;
   gap: 20px;
   font-weight: 600;
+  flex-wrap: wrap;
 }
 
 .cta {
@@ -61,6 +62,9 @@ a {
   border-radius: 999px;
   font-weight: 600;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ghost {
@@ -70,6 +74,9 @@ a {
   border-radius: 999px;
   font-weight: 600;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-content {
@@ -264,6 +271,10 @@ h1 {
   gap: 16px;
 }
 
+.whatsapp-link {
+  text-align: center;
+}
+
 label {
   display: grid;
   gap: 8px;
@@ -309,6 +320,20 @@ textarea {
   .nav-links {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .nav .cta {
+    width: 100%;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .cta,
+  .hero-actions .ghost {
+    width: 100%;
   }
 
   .hero-card {

@@ -9,7 +9,14 @@
           <a href="#processo">Metodo</a>
           <a href="#contatti">Contatti</a>
         </div>
-        <button class="cta">Richiedi un sopralluogo</button>
+        <a
+          class="cta"
+          href="https://wa.me/393480353893"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Contattaci su WhatsApp
+        </a>
       </nav>
       <div class="hero-content">
         <div>
@@ -20,8 +27,15 @@
             e manutenzioni straordinarie in tutta la Maremma.
           </p>
           <div class="hero-actions">
-            <button class="cta">Parla con un tecnico</button>
-            <button class="ghost">Scarica il portfolio</button>
+            <a
+              class="cta"
+              href="https://wa.me/393480353893"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Parla su WhatsApp
+            </a>
+            <button class="ghost" type="button">Scarica il portfolio</button>
           </div>
           <div class="hero-metrics">
             <div>
@@ -192,6 +206,14 @@
           <textarea rows="4" placeholder="Raccontaci di cosa hai bisogno"></textarea>
         </label>
         <button class="cta" type="button">Invia richiesta</button>
+        <a
+          class="ghost whatsapp-link"
+          href="https://wa.me/393480353893"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Apri WhatsApp
+        </a>
       </form>
     </section>
 
