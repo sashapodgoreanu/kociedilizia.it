@@ -38,12 +38,5 @@ npm run build
 npx wrangler pages deploy dist
 ```
 
-Se la piattaforma usa `npx wrangler versions upload`, assicurati che i file statici
-vengano caricati con l'opzione `--assets` oppure tramite `wrangler.toml`. Il progetto
-include anche un comando di build in `wrangler.toml`, così l'upload può generare `dist/`
-prima del deploy.
-
-```bash
-npm run build
-npx wrangler versions upload --assets=./dist
-```
+Per Cloudflare Pages utilizza i comandi sopra e lascia che la piattaforma gestisca
+la build e la pubblicazione del contenuto statico da `dist/`.
