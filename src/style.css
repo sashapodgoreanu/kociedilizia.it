@@ -67,6 +67,16 @@ a {
   justify-content: center;
 }
 
+.whatsapp-icon {
+  display: inline-flex;
+  margin-right: 8px;
+}
+
+.whatsapp-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
 .ghost {
   background: transparent;
   border: 1px solid #111827;

@@ -1,4 +1,4 @@
-# KO.CI Edilizia — Portfolio
+# Koci Edilizia — Portfolio
 
 Sito vetrina in italiano per una impresa edile con sede a Grosseto.
 
