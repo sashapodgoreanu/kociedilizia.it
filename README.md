@@ -14,6 +14,8 @@ npm install
 npm run dev -- --host 0.0.0.0 --port 5173
 ```
 
+Apri `http://localhost:5173` per vedere le modifiche in tempo reale mentre lavori in locale.
+
 ## Build di produzione
 
 ```bash

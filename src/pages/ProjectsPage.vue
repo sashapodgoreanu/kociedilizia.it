@@ -4,15 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const imageModules = import.meta.glob(
-  "../assets/projects/rifacimento-tetto-grosseto/*.{jpg,jpeg,png}",
+  "../assets/projects/rifacimento-tetto-maliano/*.{jpg,jpeg,png}",
   { eager: true, import: "default" }
 );
 
 const projectImages = Object.entries(imageModules)
-  .sort(([pathA], [pathB]) => pathA.localeCompare(pathB))
+  .sort(([pathA], [pathB]) => pathB.localeCompare(pathA))
   .map(([, src], index) => ({
     src,
-    alt: `Cantiere rifacimento tetto a Grosseto - dettaglio ${index + 1}`,
+    alt: `Cantiere rifacimento tetto a Maliano - dettaglio ${index + 1}`,
   }));
 
 const placeholder =
@@ -98,20 +98,20 @@ watch(activeIndex, (value) => {
       <div class="hero-content">
         <div>
           <p class="eyebrow">Progetto 2025</p>
-          <h1>Rifacimento tetto a Grosseto</h1>
+          <h1>Rifacimento tetto a Maliano</h1>
           <p class="lead">
-            Rifacimento completo della copertura con sostituzione delle parti ammalorate,
-            posa di isolamento termico e nuova impermeabilizzazione per migliorare comfort
-            e durata nel tempo.
+            Rifacimento del manto in coppi con ripristino delle falde e dei colmi,
+            sistemazione dei punti di raccordo e cura dei dettagli perimetrali
+            per garantire una copertura uniforme e resistente.
           </p>
           <div class="project-metrics">
             <div>
               <strong>Localita'</strong>
-              <span>Grosseto</span>
+              <span>Maliano</span>
             </div>
             <div>
               <strong>Intervento</strong>
-              <span>Copertura, isolamento, finiture</span>
+              <span>Manto in coppi, colmi, raccordi</span>
             </div>
             <div>
               <strong>Anno</strong>
@@ -122,9 +122,9 @@ watch(activeIndex, (value) => {
         <div class="hero-card">
           <h3>Ambito lavori</h3>
           <ul>
-            <li>Rimozione e ripristino delle falde esistenti</li>
-            <li>Guaina e isolamento termico ad alte prestazioni</li>
-            <li>Posa di coppi e rifiniture perimetrali</li>
+            <li>Ripristino del manto in coppi e dei colmi</li>
+            <li>Sistemazione dei raccordi e delle linee di gronda</li>
+            <li>Lavorazioni in quota con protezioni perimetrali</li>
           </ul>
           <div class="tag">Consegna 2025</div>
         </div>

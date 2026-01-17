@@ -105,10 +105,10 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
       <div class="projects">
         <article class="project project-highlight">
           <div class="project-body">
-            <h3>Rifacimento tetto a Grosseto</h3>
+            <h3>Rifacimento tetto a Maliano</h3>
             <p>
-              Intervento completo sulla copertura con sostituzione delle parti ammalorate,
-              isolamento termico e nuove finiture in coppi per migliorare efficienza e durata.
+              Ripristino del manto in coppi con sistemazione dei colmi e dei punti di raccordo,
+              per una copertura uniforme e resistente nel tempo.
             </p>
           </div>
           <div class="project-meta">
