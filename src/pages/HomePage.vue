@@ -1,6 +1,6 @@
 <script setup>
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { activeProjects } from "../data/projects";
 import introVisual from "../assets/intro2.jpg";
 
@@ -203,12 +203,13 @@ const featuredProjects = activeProjects.slice(0, 2);
           <h3>Facebook</h3>
           <p>Resta aggiornato su nuovi cantieri e risultati finali.</p>
           <a
-            class="cta"
+            class="cta social-link"
             href="https://www.facebook.com/profile.php?id=61578635636341"
             target="_blank"
             rel="noreferrer"
           >
-            Visita la pagina Koci Edilizia
+            <FontAwesomeIcon class="social-icon" :icon="faFacebookF" aria-hidden="true" />
+            Seguici su Facebook
           </a>
         </article>
       </div>
