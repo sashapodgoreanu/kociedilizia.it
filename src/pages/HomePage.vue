@@ -185,6 +185,27 @@ const featuredProjects = activeProjects.slice(0, 2);
       </div>
     </section>
 
+    <section id="social" class="section">
+      <div class="section-title">
+        <h2>Seguici sui social</h2>
+        <p>Foto dai cantieri, prima e dopo, novita' e lavori in corso.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Facebook</h3>
+          <p>Resta aggiornato su nuovi cantieri e risultati finali.</p>
+          <a
+            class="cta"
+            href="https://www.facebook.com/profile.php?id=61578635636341"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visita la pagina Koci Edilizia
+          </a>
+        </article>
+      </div>
+    </section>
+
     <section id="contatti" class="section contact">
       <div>
         <h2>Parliamo del tuo progetto</h2>
