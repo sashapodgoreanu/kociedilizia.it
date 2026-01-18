@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "../pages/HomePage.vue";
 import ProjectsPage from "../pages/ProjectsPage.vue";
+import ProjectDetailPage from "../pages/ProjectDetailPage.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: "/progetti",
       name: "projects",
       component: ProjectsPage,
+    },
+    {
+      path: "/progetti/:slug",
+      name: "project-detail",
+      component: ProjectDetailPage,
     },
   ],
   scrollBehavior(to, from, savedPosition) {

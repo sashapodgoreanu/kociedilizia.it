@@ -1,6 +1,9 @@
 <script setup>
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { activeProjects } from "../data/projects";
+
+const featuredProjects = activeProjects.slice(0, 2);
 </script>
 
 <template>
@@ -100,20 +103,21 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
     <section id="progetti" class="section alt">
       <div class="section-title">
         <h2>Portfolio selezionato</h2>
-        <p>Una selezione di lavori recenti, con focus sul progetto 2025.</p>
+        <p>Una selezione di lavori recenti, con focus sui progetti 2025.</p>
       </div>
       <div class="projects">
-        <article class="project project-highlight">
+        <article
+          v-for="project in featuredProjects"
+          :key="project.slug"
+          :class="['project', project.featured ? 'project-highlight' : '']"
+        >
           <div class="project-body">
-            <h3>Rifacimento tetto a Maliano</h3>
-            <p>
-              Ripristino del manto in coppi con sistemazione dei colmi e dei punti di raccordo,
-              per una copertura uniforme e resistente nel tempo.
-            </p>
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.summary }}</p>
           </div>
           <div class="project-meta">
-            <span>2025</span>
-            <RouterLink class="ghost" to="/progetti">Guarda il cantiere</RouterLink>
+            <span>{{ project.year }}</span>
+            <RouterLink class="ghost" :to="`/progetti/${project.slug}`">Guarda il cantiere</RouterLink>
           </div>
         </article>
       </div>
