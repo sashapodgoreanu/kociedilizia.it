@@ -162,25 +162,26 @@ const featuredProjects = activeProjects.slice(0, 2);
 
     <section class="section alt">
       <div class="section-title">
-        <h2>Numeri che parlano chiaro</h2>
+        <h2>Perche' scegliere Koci Edilizia</h2>
+        <p>Un unico referente, tempi chiari e finiture curate in ogni dettaglio.</p>
       </div>
-      <div class="stats">
-        <div>
-          <strong>35</strong>
-          <p>professionisti coinvolti</p>
-        </div>
-        <div>
-          <strong>9</strong>
-          <p>cantieri attivi in media</p>
-        </div>
-        <div>
-          <strong>100%</strong>
-          <p>copertura assicurativa</p>
-        </div>
-        <div>
-          <strong>5/5</strong>
-          <p>soddisfazione clienti</p>
-        </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Referente unico</h3>
+          <p>Seguiamo sopralluogo, lavori e collaudo con un responsabile dedicato.</p>
+        </article>
+        <article class="card">
+          <h3>Budget trasparente</h3>
+          <p>Computo metrico e aggiornamenti costanti per evitare sorprese.</p>
+        </article>
+        <article class="card">
+          <h3>Materiali selezionati</h3>
+          <p>Finiture affidabili, certificate e pensate per durare nel tempo.</p>
+        </article>
+        <article class="card">
+          <h3>Cantiere ordinato</h3>
+          <p>Rispetto degli spazi abitati, pulizia giornaliera e sicurezza.</p>
+        </article>
       </div>
     </section>
 

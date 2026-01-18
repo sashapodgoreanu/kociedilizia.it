@@ -182,7 +182,7 @@ watch(
 
       <section class="section alt project-cta">
         <div class="section-title">
-          <h2>Vuoi un intervento come questi?</h2>
+          <h2>Vuoi un intervento come questo?</h2>
           <p>
             Scrivici per un sopralluogo gratuito e una proposta su misura per ristrutturazioni,
             rivestimenti, stucchi veneziani, pavimentazioni, imbiancature e cartongesso.
