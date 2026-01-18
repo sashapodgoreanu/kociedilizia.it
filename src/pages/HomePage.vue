@@ -32,8 +32,8 @@ const featuredProjects = activeProjects.slice(0, 2);
           <p class="eyebrow">Impresa edile di Grosseto</p>
           <h1>Costruiamo spazi solidi, sostenibili e belli da vivere.</h1>
           <p class="lead">
-            Koci Edilizia e' il partner locale per ristrutturazioni, nuove costruzioni
-            e manutenzioni straordinarie in tutta la Maremma.
+            Koci Edilizia si occupa di ristrutturazioni, rivestimenti, stucchi veneziani,
+            pavimentazioni, imbiancature e cartongesso in tutta la Maremma.
           </p>
           <div class="hero-actions">
             <a
@@ -78,24 +78,32 @@ const featuredProjects = activeProjects.slice(0, 2);
     <section id="servizi" class="section">
       <div class="section-title">
         <h2>Servizi per ogni fase del progetto</h2>
-        <p>Dalla consulenza iniziale alla consegna, seguiamo ogni dettaglio con un unico referente.</p>
+        <p>Dalla ristrutturazione alle finiture, seguiamo ogni dettaglio con un unico referente.</p>
       </div>
       <div class="cards">
         <article class="card">
-          <h3>Nuove costruzioni</h3>
-          <p>Realizziamo edifici residenziali e commerciali con tecnologie certificate.</p>
+          <h3>Ristrutturazioni</h3>
+          <p>Interventi chiavi in mano per abitazioni e locali commerciali.</p>
         </article>
         <article class="card">
-          <h3>Ristrutturazioni complete</h3>
-          <p>Interventi chiavi in mano per case, condomini e strutture ricettive.</p>
+          <h3>Rivestimenti</h3>
+          <p>Posa di rivestimenti interni ed esterni con materiali selezionati.</p>
         </article>
         <article class="card">
-          <h3>Restauri conservativi</h3>
-          <p>Valorizziamo il patrimonio architettonico rispettando i vincoli storici.</p>
+          <h3>Stucchi veneziani</h3>
+          <p>Finiture decorative artigianali per pareti eleganti e resistenti.</p>
         </article>
         <article class="card">
-          <h3>Impiantistica integrata</h3>
-          <p>Soluzioni impiantistiche efficienti per comfort e risparmio energetico.</p>
+          <h3>Pavimentazioni</h3>
+          <p>Pavimenti interni ed esterni in cotto, gres e materiali tradizionali.</p>
+        </article>
+        <article class="card">
+          <h3>Imbiancature</h3>
+          <p>Tinteggiature precise, lavabili e coordinate alle finiture.</p>
+        </article>
+        <article class="card">
+          <h3>Cartongesso</h3>
+          <p>Controsoffitti, pareti tecniche e soluzioni su misura.</p>
         </article>
       </div>
     </section>
@@ -242,7 +250,10 @@ const featuredProjects = activeProjects.slice(0, 2);
     <footer class="footer">
       <div>
         <strong>Koci Edilizia</strong>
-        <p>Impresa edile con base a Grosseto, attiva in tutta la Maremma.</p>
+        <p>
+          Impresa edile con base a Grosseto, specializzata in ristrutturazioni, rivestimenti,
+          stucchi veneziani, pavimentazioni, imbiancature e cartongesso.
+        </p>
       </div>
       <div class="footer-data">
         <strong>DATI DELLA SOCIETA' - KOCI ALFRED</strong>

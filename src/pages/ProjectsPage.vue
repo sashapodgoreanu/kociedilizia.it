@@ -84,8 +84,11 @@ const featuredProject = projects.find((project) => project.featured) ?? projects
 
     <section class="section alt project-cta">
       <div class="section-title">
-        <h2>Vuoi un intervento simile?</h2>
-        <p>Scrivici per un sopralluogo gratuito e un piano lavori su misura.</p>
+        <h2>Vuoi un intervento come questi?</h2>
+        <p>
+          Scrivici per un sopralluogo gratuito e una proposta su misura per ristrutturazioni,
+          rivestimenti, stucchi veneziani, pavimentazioni, imbiancature e cartongesso.
+        </p>
       </div>
       <div class="cta-row">
         <a
@@ -104,7 +107,10 @@ const featuredProject = projects.find((project) => project.featured) ?? projects
     <footer class="footer">
       <div>
         <strong>Koci Edilizia</strong>
-        <p>Impresa edile con base a Grosseto, attiva in tutta la Maremma.</p>
+        <p>
+          Impresa edile con base a Grosseto, specializzata in ristrutturazioni, rivestimenti,
+          stucchi veneziani, pavimentazioni, imbiancature e cartongesso.
+        </p>
       </div>
       <div class="footer-data">
         <strong>DATI DELLA SOCIETA' - KOCI ALFRED</strong>

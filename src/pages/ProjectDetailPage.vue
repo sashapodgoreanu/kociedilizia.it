@@ -19,9 +19,13 @@ const projectImages = computed(() => {
     return [];
   }
   const folder = project.value.galleryFolder;
+  const sortOrder = project.value.gallerySort || "desc";
   return Object.entries(imageModules)
     .filter(([path]) => path.includes(`projects/${folder}/`))
-    .sort(([pathA], [pathB]) => pathB.localeCompare(pathA))
+    .sort(([pathA], [pathB]) => {
+      const comparison = pathA.localeCompare(pathB);
+      return sortOrder === "asc" ? comparison : -comparison;
+    })
     .map(([, src], index) => ({
       src,
       alt: `${project.value.galleryAltBase} - dettaglio ${index + 1}`,
@@ -178,8 +182,11 @@ watch(
 
       <section class="section alt project-cta">
         <div class="section-title">
-          <h2>Vuoi un intervento simile?</h2>
-          <p>Scrivici per un sopralluogo gratuito e un piano lavori su misura.</p>
+          <h2>Vuoi un intervento come questi?</h2>
+          <p>
+            Scrivici per un sopralluogo gratuito e una proposta su misura per ristrutturazioni,
+            rivestimenti, stucchi veneziani, pavimentazioni, imbiancature e cartongesso.
+          </p>
         </div>
         <div class="cta-row">
           <a
@@ -199,7 +206,10 @@ watch(
     <footer class="footer">
       <div>
         <strong>Koci Edilizia</strong>
-        <p>Impresa edile con base a Grosseto, attiva in tutta la Maremma.</p>
+        <p>
+          Impresa edile con base a Grosseto, specializzata in ristrutturazioni, rivestimenti,
+          stucchi veneziani, pavimentazioni, imbiancature e cartongesso.
+        </p>
       </div>
       <div class="footer-data">
         <strong>DATI DELLA SOCIETA' - KOCI ALFRED</strong>
