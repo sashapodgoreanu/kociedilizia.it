@@ -6,6 +6,7 @@ import introWide from "../assets/intro2.jpg";
 import introTall from "../assets/intro.jpg";
 
 const featuredProjects = activeProjects.slice(0, 2);
+const featuredProject = activeProjects.find((project) => project.featured) ?? activeProjects[0];
 </script>
 
 <template>
@@ -67,15 +68,13 @@ const featuredProjects = activeProjects.slice(0, 2);
             </div>
           </div>
         </div>
-        <div class="hero-card">
+        <div v-if="featuredProject" class="hero-card">
           <h3>In evidenza</h3>
-          <p>Ristrutturazione di una villa storica a Marina di Grosseto.</p>
+          <p>{{ featuredProject.title }}</p>
           <ul>
-            <li>Consolidamento strutturale</li>
-            <li>Efficientamento energetico</li>
-            <li>Restyling facciate</li>
+            <li v-for="item in featuredProject.scope" :key="item">{{ item }}</li>
           </ul>
-          <div class="tag">Consegna 2026</div>
+          <div class="tag">Anno {{ featuredProject.year }}</div>
         </div>
       </div>
     </header>
