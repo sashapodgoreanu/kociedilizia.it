@@ -2,6 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { activeProjects } from "../data/projects";
+import introVisual from "../assets/intro2.jpg";
 
 const featuredProjects = activeProjects.slice(0, 2);
 </script>
@@ -164,6 +165,13 @@ const featuredProjects = activeProjects.slice(0, 2);
       <div class="section-title">
         <h2>Perche' scegliere Koci Edilizia</h2>
         <p>Un unico referente, tempi chiari e finiture curate in ogni dettaglio.</p>
+      </div>
+      <div class="section-visual">
+        <img
+          :src="introVisual"
+          alt="Cantiere Koci Edilizia con impalcatura e banner rosso."
+          loading="lazy"
+        />
       </div>
       <div class="cards">
         <article class="card">
