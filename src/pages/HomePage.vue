@@ -2,7 +2,8 @@
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { activeProjects } from "../data/projects";
-import introVisual from "../assets/intro2.jpg";
+import introWide from "../assets/intro2.jpg";
+import introTall from "../assets/intro.jpg";
 
 const featuredProjects = activeProjects.slice(0, 2);
 </script>
@@ -11,7 +12,10 @@ const featuredProjects = activeProjects.slice(0, 2);
   <div class="page">
     <header class="hero">
       <nav class="nav">
-        <RouterLink class="logo" to="/">Koci Edilizia</RouterLink>
+        <RouterLink class="logo" to="/">
+          <img class="logo-mark" src="/logo.svg" alt="" aria-hidden="true" />
+          <span class="logo-text">Koci Edilizia</span>
+        </RouterLink>
         <div class="nav-links">
           <RouterLink to="/#servizi">Servizi</RouterLink>
           <RouterLink to="/#progetti">Progetti</RouterLink>
@@ -166,12 +170,21 @@ const featuredProjects = activeProjects.slice(0, 2);
         <h2>Perche' scegliere Koci Edilizia</h2>
         <p>Un unico referente, tempi chiari e finiture curate in ogni dettaglio.</p>
       </div>
-      <div class="section-visual">
-        <img
-          :src="introVisual"
-          alt="Cantiere Koci Edilizia con impalcatura e banner rosso."
-          loading="lazy"
-        />
+      <div class="section-visuals">
+        <div class="section-visual section-visual--wide">
+          <img
+            :src="introWide"
+            alt="Cantiere Koci Edilizia con impalcatura e banner rosso."
+            loading="lazy"
+          />
+        </div>
+        <div class="section-visual section-visual--tall">
+          <img
+            :src="introTall"
+            alt="Dettaglio cantiere Koci Edilizia con telo rosso e facciata storica."
+            loading="lazy"
+          />
+        </div>
       </div>
       <div class="cards">
         <article class="card">

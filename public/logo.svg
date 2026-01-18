@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 120" role="img" aria-label="Koci Edilizia">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M14 96 V44 L70 16 L110 40" stroke="#111827" />
+    <path d="M14 96 H130" stroke="#111827" />
+    <path d="M132 96 A28 28 0 0 1 188 96" stroke="#f59e0b" />
+    <path d="M132 96 H188" stroke="#f59e0b" />
+    <path d="M144 96 V76" stroke="#f59e0b" />
+    <path d="M160 96 V70" stroke="#f59e0b" />
+    <path d="M176 96 V76" stroke="#f59e0b" />
+  </g>
+</svg>

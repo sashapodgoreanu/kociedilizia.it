@@ -11,7 +11,10 @@ const featuredProject = projects.find((project) => project.featured) ?? projects
   <div class="page">
     <header class="hero project-hero">
       <nav class="nav">
-        <RouterLink class="logo" to="/">Koci Edilizia</RouterLink>
+        <RouterLink class="logo" to="/">
+          <img class="logo-mark" src="/logo.svg" alt="" aria-hidden="true" />
+          <span class="logo-text">Koci Edilizia</span>
+        </RouterLink>
         <div class="nav-links">
           <RouterLink to="/#servizi">Servizi</RouterLink>
           <RouterLink to="/progetti">Portfolio</RouterLink>
